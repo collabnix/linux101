@@ -1,2 +1,3 @@
-# linux101
+# Linux101
+
 Getting Started with Linux Fundamentals
