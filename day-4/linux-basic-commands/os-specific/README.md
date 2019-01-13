@@ -228,3 +228,43 @@ cpuid level     : 20
 wp              : yes
 flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf
 ```
+
+## Finding Memory Information
+
+```
+$ cat /proc/meminfo
+MemTotal:       32929708 kB
+MemFree:         2232244 kB
+MemAvailable:   18766160 kB
+Buffers:          115696 kB
+Cached:         15392816 kB
+SwapCached:            0 kB
+Active:         14306096 kB
+Inactive:        9126280 kBActive(anon):    8096752 kBInactive(anon):   206956 kBActive(file):    6209344 kBInactive(file):  8919324 kB
+Unevictable:        3660 kB
+Mlocked:            3660 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:               376 kB
+Writeback:             0 kB
+AnonPages:       7927224 kB
+Mapped:           717692 kB
+Shmem:            377420 kB
+Slab:            3513428 kB
+SReclaimable:    1816272 kB
+SUnreclaim:      1697156 kB
+KernelStack:       61568 kB
+PageTables:        64516 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    16464852 kB
+Committed_AS:   31943440 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   3926016 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+```
