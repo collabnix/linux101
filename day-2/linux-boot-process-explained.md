@@ -55,7 +55,7 @@ The first thing init does is reading the initialization file, /etc/inittab. This
 
 Under init, the login process entry is present and hence you see login windows
 
-
+[Reference](https://www.crybit.com/linux-boot-process/)
 
 
 
